@@ -7,6 +7,7 @@ import About from './pages/About'
 import HomePage from './pages/HomePage'
 import Bai2 from './pages/Bai2'
 import Bai3 from './pages/Bai3'
+import Services from './pages/Services'
 
 export default function App() {
   return (
@@ -20,7 +21,8 @@ export default function App() {
           <Route path='contact' element={<Contact/>}/>
         </Route>
         <Route path='/bai3' element={<Bai3/>}>
-
+          <Route index element={<Services/>}/>
+          <Route />
         </Route>
       </Routes>
     </div>
