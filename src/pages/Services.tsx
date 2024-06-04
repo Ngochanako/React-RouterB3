@@ -3,7 +3,14 @@ import React from 'react'
 export default function Services() {
   return (
     <div>
-       <div className="untree_co-section">
+        <div className="hero">
+    <div className="container">
+      <div className="row align-items-center">
+        <div className="col-lg-5"></div>
+      </div>
+    </div>
+  </div>
+  <div className="untree_co-section">
     <div className="container">
       <div className="row mb-5 justify-content-center">
         <div className="col-lg-6 text-center">

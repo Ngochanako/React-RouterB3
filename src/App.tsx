@@ -22,7 +22,10 @@ export default function App() {
         </Route>
         <Route path='/bai3' element={<Bai3/>}>
           <Route index element={<Services/>}/>
-          <Route />
+          <Route path='about' element={<About/>}/>
+          <Route path='services' element={<Services/>}/>
+          <Route path='home' element={<Bai3/>}/>
+          <Route path='contact' element={<Contact/>}/>
         </Route>
       </Routes>
     </div>

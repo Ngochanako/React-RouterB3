@@ -21,7 +21,7 @@ export default function Bai3() {
         </a>
         <ul className="js-clone-nav d-none d-lg-inline-block text-left site-menu float-right">
           <li className="active">
-            <a href="index.html">Home</a>
+            <Link to={'home'}>Home</Link>
           </li>
           <li className="has-children">
             <a href="#">Dropdown</a>
@@ -52,13 +52,13 @@ export default function Bai3() {
             </ul>
           </li>
           <li>
-            <a href="services.html">Services</a>
+            <Link to={'services'}>Services</Link>
           </li>
           <li>
             <Link to={'about'}>About</Link>
           </li>
           <li>
-            <a href="contact.html">Contact Us</a>
+            <Link to={'contact'}>Contact Us</Link>
           </li>
         </ul>
         <a
@@ -72,13 +72,6 @@ export default function Bai3() {
       </div>
     </div>
   </nav>
-  <div className="hero">
-    <div className="container">
-      <div className="row align-items-center">
-        <div className="col-lg-5"></div>
-      </div>
-    </div>
-  </div>
  <Outlet/>
   <div className="site-footer">
     <div className="inner first">
